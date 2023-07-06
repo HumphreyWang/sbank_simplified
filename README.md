@@ -11,6 +11,8 @@ This is an illustration of the `sbank` structure drawn by me.
 
 This was originally a coursework for *Computational Astrophysics(2023)* at SYSU, and then I decided to make it public.
 
+(So there *must* be some mistakes, especially in the slides and notes!)
+
 ---
 
 True to its name, this is a(n over-)simplified version of `sbank`. I removed all stuff about gravitational waves

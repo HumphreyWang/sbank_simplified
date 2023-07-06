@@ -65,8 +65,7 @@ class Bank(object):
             dot_tem = self._ax.plot(*new.params, markersize=1, color='C2', marker='.', zorder=3)
             plt.savefig(f'{prefix}_{self._nmatch:0>6d}_{len(self):0>3d}_0.png')
             new.ellipse.set(color='C0')
-            for i in dot_tem:
-                i.set(color='C0')
+            dot_tem[0].set(color='C0')
             plt.savefig(f'{prefix}_{self._nmatch:0>6d}_{len(self):0>3d}_1.png')
 
     def add_from_array(self, arr, tmplt_class):
